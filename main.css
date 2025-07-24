@@ -1,0 +1,150 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+    color: #333;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: #fff;
+}
+
+header .logo {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3dcc4;
+    padding: 60px 8%;
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #0f7757;
+    color: #fff;
+    padding: 14px 30px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* Collection Section */
+.collection {
+    text-align: center;
+    padding: 60px 8%;
+}
+
+.collection h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+    text-transform: lowercase;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin: 15px 0 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f3dcc4;
+    padding: 20px 8%;
+    margin-top: 40px;
+}
+
+.footer-nav {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.footer-nav li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.social img {
+    width: 20px;
+    margin-left: 15px;
+}
+
+
+.qb{
+    background-color: #0A775F;
+    border-radius: 45%;
+    /* Frame 49 */
+position: relative;
+width: 193px;
+height: 51px;
+/* Автолейаут */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 16px 24px 16px 24px;
+}
